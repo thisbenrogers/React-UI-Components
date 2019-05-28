@@ -4,16 +4,37 @@
 
 // .header-image
 
+// .header-copy-container
+
 // .header-title
 
 // .header-content
 
-.header-image {
-  width: 30px;
-  
+.header-container {
+  width: 100%;
+  display: flex;
 }
 
+.header-image {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
 
-.header-title > p {
-  color: grey;
+.header-copy-container {
+  margin-left: 10px;
+}
+
+.header-title {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  p {
+    margin: 0 0 0 8px;
+    color: lightgrey;
+  }
+}
+
+.header-content {
+
 }

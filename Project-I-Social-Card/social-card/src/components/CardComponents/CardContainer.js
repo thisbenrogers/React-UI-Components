@@ -3,13 +3,15 @@ import React from "react";
 import CardBanner from "./CardBanner";
 import CardContent from "./CardContent";
 
-import "./Card.css";
+import "./Card.scss";
 
 const CardContainer = () => {
   return (
     <div className="card-container">
-      <CardBanner />
-      <CardContent />
+      <a href="https://www.reactjs.org">
+        <CardBanner />
+        <CardContent />
+      </a>
     </div>
   );
 };

@@ -1,9 +1,13 @@
 import React from "react";
 
-import "./Footer.css";
+import "./Footer.scss";
 
 const Footer = () => {
-  return <p>✅ TODO Footer</p>;
+  return (
+    <div className="footer">
+      <p>✅ TODO Footer</p>
+    </div>
+  );
 };
 
 export default Footer;
