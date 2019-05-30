@@ -1,0 +1,28 @@
+@import './components/DisplayComponents/Display.scss', './components/ButtonComponents/Button.scss';
+
+
+// Master list of classNames:
+// App.js
+//   .app-container
+//
+// CalculatorDisplay.js
+//  .display-contianer
+//
+// ButtonContainer.js
+//  .button-container
+//
+// ClearButton.js
+//  .clear-button
+//
+// NumberButton.js
+//  .number-container
+//
+// ActionButton.js
+//  .action-container
+
+.app-container {
+  width: 450px;
+  height: 595px;
+  margin: 5px auto;
+}
+
